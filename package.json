@@ -8,7 +8,8 @@
     "el": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "start": "webpack server"
+    "start": "webpack server",
+    "build": "webpack build"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
