@@ -1,9 +1,12 @@
 @import "./global"
 
 .main
+  height: 100vh
   display: flex
   flex-direction: column
   justify-content: space-between
-  
   .content
-    height: 100%
+    height: calc( 100% - 10vh )
+    background-color: $backgroundColor
+  .bottom
+    height: 10vh
